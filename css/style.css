@@ -1,0 +1,246 @@
+*{
+    list-style-type: none;
+    border:0;
+    box-sizing: border-box;
+    margin:0;
+    /* padding:0; */
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500;700&family=Playpen+Sans:wght@100&display=swap');
+/* header 1 start here */
+.header{
+    gap:150px;
+    background:url(../img/banner_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    
+    
+}
+.logo{
+   display: inline-block;
+   gap:200px;
+}
+    .flex-space-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+
+    }
+    .img{
+        height: 50px;
+        width:100px;
+        font-size: 30px;
+        font-family: 'AR One Sans', sans-serif;
+        color:white;
+        gap:50px;
+        
+    }
+    .nav{
+        gap:50px;
+        padding:50px
+        
+    }
+.nav-link{
+    color:white;
+    font-family: 'Playpen Sans', cursive;
+   
+}
+.nav-link:hover{
+    background:aqua;
+    padding:15px;
+    border-radius: 20px;
+    color:black;
+    transition: 0.8s;}
+
+.header-medil{
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.heading{
+    margin-top: 50px;
+    color:wheat
+}
+.lorem{
+    margin-top: 20px;
+    color:whitesmoke
+}
+.link{
+    margin-top: 20px;
+    background:white;
+    color:black;
+    padding:15px;
+    border-radius: 20px;
+} 
+   /* header 1 end here */
+
+/* header 2 start here  */
+    .about{
+        background: url(../img/about-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:80vh
+    }
+.header2{
+    width:80%;
+    margin:0 auto;
+    gap:2rem;
+
+}
+.headers{
+    text-align: center;
+    gap:3rem;
+    margin-top: 50px;
+    color:white
+    
+    
+    
+    
+}
+.icon{
+    font-size: 40px;
+    margin-top: 40px;
+    color:#EDC744;
+    
+}
+.Notifications{
+    margin-top: 20px;
+}
+.justify{
+    text-align: justify;
+}
+hr{
+    padding:1px;
+    background-color:#222A2D;
+    width:90%;
+    margin-top: 10px;
+    
+}
+.paragrap{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    word-spacing: 2px;
+   font-size: 15px;
+   line-height: 01rem;
+
+}
+.links{
+    background:aqua;
+    padding:20px;
+    border-radius: 20px;
+    color:white
+}
+/* header 2 end here */
+/* main1 start here  */
+.main{
+    width:40%;
+    height: 650px;
+    background: aqua;
+    float: left;
+}
+.gallery{
+   justify-content: center;
+    margin-left: 100px;
+    margin-right: 110px;
+    
+
+}
+.horejental{
+    margin-bottom: 22px;
+}
+.heading3{
+    margin-top: 20px;
+    gap:10px;
+    
+    
+}
+.shaw{
+    color:yellow
+}
+.images{
+    height:200px;
+    width:200px;
+    
+    
+    
+}
+ .left{
+   margin:30px;
+   margin-left: 520px;
+  
+ }
+
+/* main1 end here  */
+/*  main 2start here  */
+.main1{
+    background: #F8C552;
+    margin-top:-21px;
+ }
+.paragraps{
+   background:white;
+   display: inline-block;
+   width: 420px;
+   margin-top:50px;
+   border-radius: 20px;
+   line-height: 2rem;
+  
+}
+/*  main 2 end here  */
+.background{ 
+    background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top:-30px
+}
+
+
+
+.couple-img{
+    width:400px;
+    height: 600px;
+   
+    
+    
+}
+.heading3{
+    padding:20px;
+    background:white;
+    border-radius: 10px;
+}
+.mains{
+    
+        width:40%;
+        height: 650px;
+        float: left;
+  }
+  .Branding{
+    background:white;
+    width:400px;
+    margin-top:-3px;
+  }
+
+
+  .contact{
+    background:#4B4B4B;
+    height: 50vh;
+    margin-top: -30px;
+  }
+
+.flex-space-around{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#4B4B4B;
+    margin-top: -5px;
+}
+.instragram{
+    width:15px;
+    height: 15px;
+}
+.color{
+    color:white
+}
